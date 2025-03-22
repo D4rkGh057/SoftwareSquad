@@ -1,0 +1,11 @@
+  =>  Template Name    : SoftwareSquad
+
+  =>  Template Link    : https://htmlcodex.com/startup-website-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : SoftwareSquad
+
+  =>  Author Website   : https://htmlcodex.com
+
+  =>  Nosotros SoftwareSquad : SoftwareSquad is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://htmlcodex.com/about-us )
