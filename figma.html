@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Figma - SoftwareSquad</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Figma, diseño UI/UX, herramientas de diseño" name="keywords">
+    <meta content="Todo sobre Figma, la herramienta colaborativa para diseño de interfaces" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Universidad Técnica de Ambato, Ecuador</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+593 99 577 2951</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@softwaresquad.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="img/logo.png" alt="" style="width:30vh">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item active">Blog</a>
+                            <a href="detail.html" class="dropdown-item">Último Blog</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Conoce Más</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="price.html" class="dropdown-item">Nuesto Portafolio</a>
+                            <a href="feature.html" class="dropdown-item">Nuestro valor</a>
+                            <a href="team.html" class="dropdown-item">Conoce al Equipo</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonios</a>
+                            <a href="quote.html" class="dropdown-item">Obtén tu cotización gratis</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Figma: Herramienta de Diseño UI/UX</h1>
+                    <a href="index.html" class="h5 text-white">Inicio</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="blog.html" class="h5 text-white">Blog</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="#" class="h5 text-white">Figma</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Blog Detail Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-8">
+                    <!-- Blog Detail Start -->
+                    <div class="mb-5">
+                        <img class="img-fluid w-100 rounded mb-5" src="img/blog-figma-large.jpg" alt="Figma UI Design Tool">
+                        <h1 class="mb-4">Figma: La herramienta colaborativa para diseño de interfaces</h1>
+                        <div class="d-flex mb-3">
+                            <small class="me-3"><i class="far fa-user text-primary me-2"></i>Grupo 5</small>
+                            <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Nov, 2025</small>
+                            <small><i class="far fa-folder text-primary me-2"></i>Herramientas de Diseño</small>
+                        </div>
+                        
+                        <!-- Descripción de la herramienta -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">¿Qué es Figma?</h2>
+                            <p>Figma es una plataforma de diseño de interfaces (UI) y experiencia de usuario (UX) basada en la nube, utilizada para crear prototipos interactivos, sistemas de diseño y colaborar en equipo. A diferencia de herramientas tradicionales como Adobe XD o Sketch, Figma funciona directamente en el navegador, lo que la hace accesible desde cualquier sistema operativo (Windows, macOS, Linux) sin necesidad de instalación.</p>
+                            <p>Su enfoque colaborativo la ha convertido en una de las herramientas más populares para diseñadores, desarrolladores y equipos de producto, ya que permite trabajar en tiempo real, similar a Google Docs pero para diseño.</p>
+                        </section>
+                        
+                        <!-- Características principales -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">Características principales</h2>
+                            
+                            <h4 class="mb-3">1. Diseño vectorial avanzado</h4>
+                            <ul>
+                                <li>Herramientas de formas, pluma y booleanas para crear iconos e ilustraciones.</li>
+                                <li>Soporte para grids, layouts flexibles y estilos de texto/color reutilizables.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">2. Prototipado interactivo</h4>
+                            <ul>
+                                <li>Creación de flujos de usuario con transiciones, overlays y microinteracciones.</li>
+                                <li>Modo de presentación para simular la experiencia real de una app o sitio web.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">3. Componentes y bibliotecas de diseño</h4>
+                            <ul>
+                                <li>Sistema de "Design Systems" para mantener la consistencia en proyectos grandes.</li>
+                                <li>Componentes maestros que se actualizan globalmente (ej: botones, headers).</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">4. Colaboración en tiempo real</h4>
+                            <ul>
+                                <li>Múltiples usuarios pueden editar un mismo archivo simultáneamente.</li>
+                                <li>Comentarios contextuales y seguimiento de cambios con historial de versiones.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">5. Plugins e integraciones</h4>
+                            <ul>
+                                <li>Plugins para iconos (Iconify), traducciones (Lorem Ipsum), y automatización.</li>
+                                <li>Integración con Slack, Jira, Zeplin y herramientas de desarrollo frontend.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">6. Figma para desarrolladores</h4>
+                            <ul>
+                                <li>Modo "Dev Mode": Inspeccionar medidas, colores (CSS/Swift/Android), y exportar assets.</li>
+                                <li>Código automático para estilos (ej: CSS, SwiftUI).</li>
+                            </ul>
+                        </section>
+                        
+                        <!-- Tipo de licencia -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">Tipo de licencia</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th>Plan</th>
+                                            <th>Funcionalidades</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Starter (Free)</td>
+                                            <td>
+                                                <ul class="mb-0">
+                                                    <li>Hasta 3 proyectos activos</li>
+                                                    <li>2 editores máximo</li>
+                                                    <li>Prototipado básico</li>
+                                                </ul>
+                                            </td>
+                                            <td>Gratis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Professional</td>
+                                            <td>
+                                                <ul class="mb-0">
+                                                    <li>Proyectos ilimitados</li>
+                                                    <li>Equipos privados</li>
+                                                    <li>Prototipado avanzado</li>
+                                                </ul>
+                                            </td>
+                                            <td>$12/usuario/mes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Organization</td>
+                                            <td>
+                                                <ul class="mb-0">
+                                                    <li>Gestión de permisos avanzada</li>
+                                                    <li>Soporte prioritario</li>
+                                                    <li>Auditoría de seguridad</li>
+                                                </ul>
+                                            </td>
+                                            <td>$45/usuario/mes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        
+                        <!-- Ventajas frente a otras herramientas -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">Ventajas frente a otras herramientas</h2>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th>Herramienta</th>
+                                            <th>Diferencias clave</th>
+                                            <th>¿Cuándo elegir Figma?</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Adobe XD</td>
+                                            <td>XD requiere instalación - Figma tiene mejor colaboración en tiempo real</td>
+                                            <td>Equipos remotos o grandes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sketch</td>
+                                            <td>Sketch solo para macOS - Figma tiene mejor manejo de bibliotecas compartidas</td>
+                                            <td>Equipos con múltiples sistemas operativos</td>
+                                        </tr>
+                                        <tr>
+                                            <td>InVision</td>
+                                            <td>InVision solo para prototipado - Figma integra diseño + prototipado</td>
+                                            <td>Proyectos ágiles (todo en uno)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <h4 class="mt-4 mb-3">Ventajas clave de Figma:</h4>
+                            <ul>
+                                <li><strong>Multiplataforma:</strong> Funciona en cualquier sistema operativo.</li>
+                                <li><strong>Menos costoso:</strong> No requiere licencias por dispositivo (como Sketch).</li>
+                                <li><strong>Ecosistema abierto:</strong> Plugins y APIs para personalizar flujos de trabajo.</li>
+                                <li><strong>Colaboración nativa:</strong> Trabajo en equipo en tiempo real sin necesidad de integraciones adicionales.</li>
+                            </ul>
+                        </section>
+                        
+                        <!-- Limitaciones de la herramienta -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">Limitaciones de Figma</h2>
+                            
+                            <h4 class="mb-3">1. Dependencia de internet</h4>
+                            <p>Figma requiere una conexión estable para funcionar, ya que es una herramienta basada en la nube, lo que puede ser limitante en entornos con conectividad deficiente.</p>
+                            
+                            <h4 class="mb-3">2. Rendimiento con proyectos grandes</h4>
+                            <p>En proyectos muy complejos con múltiples archivos o elementos, Figma puede volverse lento, especialmente en dispositivos con hardware menos potente.</p>
+                            
+                            <h4 class="mb-3">3. Funcionalidades offline limitadas</h4>
+                            <p>Aunque ofrece un modo sin conexión, las capacidades son restringidas y no permiten aprovechar todas las funciones de colaboración en tiempo real.</p>
+                            
+                            <h4 class="mb-3">4. Curva de aprendizaje inicial</h4>
+                            <p>Aunque Figma es conocido por su facilidad de uso, los nuevos usuarios pueden encontrar un aprendizaje inicial complicado. La familiarización con su enfoque de diseño centrado en el navegador y las herramientas de prototipado y colaboración en tiempo real requiere tiempo.</p>
+                        </section>
+                        
+                        <!-- Funcionalidades destacadas -->
+                        <section class="mb-5">
+                            <h2 class="mb-4">Funcionalidades destacadas</h2>
+                            
+                            <h4 class="mb-3">1. Auto-layout</h4>
+                            <ul>
+                                <li>Diseña interfaces responsivas que se adaptan automáticamente (ej: listas, menús).</li>
+                                <li>Permite crear elementos que se ajustan dinámicamente al contenido.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">2. Sistemas de Diseño</h4>
+                            <ul>
+                                <li>Crea una biblioteca centralizada de colores, tipografías y componentes.</li>
+                                <li>Mantén la consistencia visual en todos tus proyectos.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">3. Prototipado con animaciones</h4>
+                            <ul>
+                                <li>Transiciones avanzadas (microinteracciones, scroll vinculado, hover effects).</li>
+                                <li>Simulación de experiencias interactivas complejas.</li>
+                            </ul>
+                            
+                            <h4 class="mb-3">4. Dev Mode</h4>
+                            <ul>
+                                <li>Espacio dedicado para desarrolladores con specs técnicas y exportación de assets.</li>
+                                <li>Extrae código CSS, Swift o Android directamente desde los diseños.</li>
+                            </ul>
+                        </section>
+                        
+                        <div class="border-top border-bottom py-4 my-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle me-3" src="img/team-1.jpg" width="60" height="60" alt="">
+                                        <div>
+                                            <h6 class="mb-0">Grupo 5</h6>
+                                            <small>Equipo SoftwareSquad</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex justify-content-md-end justify-content-start mt-3 mt-md-0">
+                                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn btn-square btn-primary" href=""><i class="fab fa-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Detail End -->
+                </div>
+
+                <!-- Sidebar Start -->
+                <div class="col-lg-4">
+                    <!-- Search Form Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Palabra Clave">
+                            <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Search Form End -->
+    
+                    <!-- Category Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Categorías</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Software de Código Abierto</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Herramientas de Diseño</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Colaboración y Networking</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Proyectos Comunitarios</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Educación y Talleres</a>
+                        </div>
+                    </div>
+                    <!-- Category End -->
+    
+                    <!-- Recent Post Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Publicaciones Recientes</h3>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Cómo contribuir a proyectos de código abierto</a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Participa en nuestros próximos eventos tecnológicos</a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">La importancia del networking en la industria del software</a>
+                        </div>
+                        <div class="d-flex rounded overflow-hidden mb-3">
+                            <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Proyectos comunitarios que están cambiando el mundo</a>
+                        </div>
+                    </div>
+                    <!-- Recent Post End -->
+    
+                    <!-- Image Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <img src="img/blog-2.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                    <!-- Image End -->
+    
+                    <!-- Tags Start -->
+                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Etiquetas destacadas</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-light m-1">Figma</a>
+                            <a href="" class="btn btn-light m-1">Diseño UI/UX</a>
+                            <a href="" class="btn btn-light m-1">Prototipado</a>
+                            <a href="" class="btn btn-light m-1">Colaboración</a>
+                            <a href="" class="btn btn-light m-1">Herramientas</a>
+                            <a href="" class="btn btn-light m-1">Adobe XD</a>
+                            <a href="" class="btn btn-light m-1">Sketch</a>
+                            <a href="" class="btn btn-light m-1">InVision</a>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+    
+                    <!-- Curiosidades Start -->
+                    <div class="wow slideInUp" data-wow-delay="0.1s">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="mb-0">Curiosidades</h3>
+                        </div>
+                        <div class="bg-light text-center" style="padding: 30px;">
+                            <p>¿Sabías que Figma fue fundada en 2012 pero no lanzó su producto hasta 2016? Su enfoque en la colaboración en tiempo real la ha convertido en una de las herramientas más populares para equipos de diseño remotos.</p>
+                            <a href="" class="btn btn-primary py-2 px-4">Leer más</a>
+                        </div>
+                    </div>
+                    <!-- Curiosidades End -->
+                </div>
+                <!-- Sidebar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Blog Detail End -->
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/vendor-1.jpg" alt="">
+                    <img src="img/vendor-2.jpg" alt="">
+                    <img src="img/vendor-3.jpg" alt="">
+                    <img src="img/vendor-4.jpg" alt="">
+                    <img src="img/vendor-5.jpg" alt="">
+                    <img src="img/vendor-6.jpg" alt="">
+                    <img src="img/vendor-7.jpg" alt="">
+                    <img src="img/vendor-8.jpg" alt="">
+                    <img src="img/vendor-9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="img/logo.png" alt="" style="width:30vh">
+                        </a>
+                        <p class="mt-3 mb-4">Suscríbete y mantente actualizado.
+Recibe insights, consejos prácticos y novedades directamente en tu bandeja de entrada. ¡Forma parte de nuestra comunidad!</p>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Tu Correo">
+                                <button class="btn btn-dark">Regístrate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Ponte en contacto.</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">Universidad Técnica de Ambato, Ecuador</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">info@softwaresquad.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+593 99 577 2951</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Sobre Nosotros</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Nuestros Servicios</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Conoce al Equipo</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Último Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contáctanos</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Sobre Nosotros</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Nuestros Servicios</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Conoce al Equipo</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Último Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contáctanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #181818;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">SoftwareSquad</a>.Todos los Derechos Reservados 
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Diseñado por <a class="text-white border-bottom" href="https://htmlcodex.com">HTMLCodex</a> y <a class="text-white border-bottom" href="https://softwaresquad.com">SoftwareSquad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
